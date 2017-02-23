@@ -28,12 +28,35 @@
                                     <outlet property="delegate" destination="DB1-TT-Vsd" id="XIJ-bB-2w1"/>
                                 </connections>
                             </pickerView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="QrM-bG-6qr">
+                                <rect key="frame" x="0.0" y="175.5" width="375" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="French" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eax-lL-bIw">
+                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="US (YDS)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1GL-1U-lSa">
+                                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="nj1-hB-ekg"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Z19-Hg-RMO" firstAttribute="leading" secondItem="gKg-Ln-lNd" secondAttribute="leading" id="1eB-yU-wcC"/>
                             <constraint firstAttribute="trailing" secondItem="Z19-Hg-RMO" secondAttribute="trailing" id="Tu7-HQ-NLI"/>
                             <constraint firstItem="Z19-Hg-RMO" firstAttribute="centerY" secondItem="gKg-Ln-lNd" secondAttribute="centerY" id="VLV-5X-wlQ"/>
+                            <constraint firstAttribute="trailing" secondItem="QrM-bG-6qr" secondAttribute="trailing" id="fxg-XR-uTB"/>
+                            <constraint firstItem="Z19-Hg-RMO" firstAttribute="top" secondItem="QrM-bG-6qr" secondAttribute="bottom" id="hhO-EX-PEK"/>
+                            <constraint firstItem="QrM-bG-6qr" firstAttribute="leading" secondItem="gKg-Ln-lNd" secondAttribute="leading" id="jqD-dr-7iT"/>
                         </constraints>
                     </view>
                     <connections>
@@ -42,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jbo-hs-8Cg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-423" y="-169"/>
+            <point key="canvasLocation" x="-423.19999999999999" y="-169.56521739130437"/>
         </scene>
     </scenes>
 </document>
