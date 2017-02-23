@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDBB03A61E5F1F0A00383CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBB03A51E5F1F0A00383CAB /* AppDelegate.swift */; };
+		FDBB03A81E5F1F0A00383CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBB03A71E5F1F0A00383CAB /* ViewController.swift */; };
+		FDBB03AB1E5F1F0A00383CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBB03A91E5F1F0A00383CAB /* Main.storyboard */; };
+		FDBB03AD1E5F1F0A00383CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBB03AC1E5F1F0A00383CAB /* Assets.xcassets */; };
+		FDBB03B01E5F1F0A00383CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBB03AE1E5F1F0A00383CAB /* LaunchScreen.storyboard */; };
+		FDBB03BB1E5F1F0A00383CAB /* Climbing_Grade_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBB03BA1E5F1F0A00383CAB /* Climbing_Grade_ConverterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDBB03B71E5F1F0A00383CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDBB039A1E5F1F0A00383CAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDBB03A11E5F1F0A00383CAB;
+			remoteInfo = "Climbing Grade Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDBB03A21E5F1F0A00383CAB /* Climbing Grade Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Climbing Grade Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBB03A51E5F1F0A00383CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDBB03A71E5F1F0A00383CAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDBB03AA1E5F1F0A00383CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDBB03AC1E5F1F0A00383CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDBB03AF1E5F1F0A00383CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDBB03B11E5F1F0A00383CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBB03B61E5F1F0A00383CAB /* Climbing Grade ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Climbing Grade ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBB03BA1E5F1F0A00383CAB /* Climbing_Grade_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Climbing_Grade_ConverterTests.swift; sourceTree = "<group>"; };
+		FDBB03BC1E5F1F0A00383CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDBB039F1E5F1F0A00383CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBB03B31E5F1F0A00383CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDBB03991E5F1F0A00383CAB = {
+			isa = PBXGroup;
+			children = (
+				FDBB03A41E5F1F0A00383CAB /* Climbing Grade Converter */,
+				FDBB03B91E5F1F0A00383CAB /* Climbing Grade ConverterTests */,
+				FDBB03A31E5F1F0A00383CAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDBB03A31E5F1F0A00383CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDBB03A21E5F1F0A00383CAB /* Climbing Grade Converter.app */,
+				FDBB03B61E5F1F0A00383CAB /* Climbing Grade ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDBB03A41E5F1F0A00383CAB /* Climbing Grade Converter */ = {
+			isa = PBXGroup;
+			children = (
+				FDBB03A51E5F1F0A00383CAB /* AppDelegate.swift */,
+				FDBB03A71E5F1F0A00383CAB /* ViewController.swift */,
+				FDBB03A91E5F1F0A00383CAB /* Main.storyboard */,
+				FDBB03AC1E5F1F0A00383CAB /* Assets.xcassets */,
+				FDBB03AE1E5F1F0A00383CAB /* LaunchScreen.storyboard */,
+				FDBB03B11E5F1F0A00383CAB /* Info.plist */,
+			);
+			path = "Climbing Grade Converter";
+			sourceTree = "<group>";
+		};
+		FDBB03B91E5F1F0A00383CAB /* Climbing Grade ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDBB03BA1E5F1F0A00383CAB /* Climbing_Grade_ConverterTests.swift */,
+				FDBB03BC1E5F1F0A00383CAB /* Info.plist */,
+			);
+			path = "Climbing Grade ConverterTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDBB03A11E5F1F0A00383CAB /* Climbing Grade Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBB03BF1E5F1F0A00383CAB /* Build configuration list for PBXNativeTarget "Climbing Grade Converter" */;
+			buildPhases = (
+				FDBB039E1E5F1F0A00383CAB /* Sources */,
+				FDBB039F1E5F1F0A00383CAB /* Frameworks */,
+				FDBB03A01E5F1F0A00383CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Climbing Grade Converter";
+			productName = "Climbing Grade Converter";
+			productReference = FDBB03A21E5F1F0A00383CAB /* Climbing Grade Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDBB03B51E5F1F0A00383CAB /* Climbing Grade ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBB03C21E5F1F0A00383CAB /* Build configuration list for PBXNativeTarget "Climbing Grade ConverterTests" */;
+			buildPhases = (
+				FDBB03B21E5F1F0A00383CAB /* Sources */,
+				FDBB03B31E5F1F0A00383CAB /* Frameworks */,
+				FDBB03B41E5F1F0A00383CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDBB03B81E5F1F0A00383CAB /* PBXTargetDependency */,
+			);
+			name = "Climbing Grade ConverterTests";
+			productName = "Climbing Grade ConverterTests";
+			productReference = FDBB03B61E5F1F0A00383CAB /* Climbing Grade ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDBB039A1E5F1F0A00383CAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Invisible Pixel";
+				TargetAttributes = {
+					FDBB03A11E5F1F0A00383CAB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A9NP4475VH;
+						ProvisioningStyle = Automatic;
+					};
+					FDBB03B51E5F1F0A00383CAB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A9NP4475VH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDBB03A11E5F1F0A00383CAB;
+					};
+				};
+			};
+			buildConfigurationList = FDBB039D1E5F1F0A00383CAB /* Build configuration list for PBXProject "Climbing Grade Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDBB03991E5F1F0A00383CAB;
+			productRefGroup = FDBB03A31E5F1F0A00383CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDBB03A11E5F1F0A00383CAB /* Climbing Grade Converter */,
+				FDBB03B51E5F1F0A00383CAB /* Climbing Grade ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDBB03A01E5F1F0A00383CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBB03B01E5F1F0A00383CAB /* LaunchScreen.storyboard in Resources */,
+				FDBB03AD1E5F1F0A00383CAB /* Assets.xcassets in Resources */,
+				FDBB03AB1E5F1F0A00383CAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBB03B41E5F1F0A00383CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDBB039E1E5F1F0A00383CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBB03A81E5F1F0A00383CAB /* ViewController.swift in Sources */,
+				FDBB03A61E5F1F0A00383CAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBB03B21E5F1F0A00383CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBB03BB1E5F1F0A00383CAB /* Climbing_Grade_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDBB03B81E5F1F0A00383CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDBB03A11E5F1F0A00383CAB /* Climbing Grade Converter */;
+			targetProxy = FDBB03B71E5F1F0A00383CAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDBB03A91E5F1F0A00383CAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBB03AA1E5F1F0A00383CAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDBB03AE1E5F1F0A00383CAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBB03AF1E5F1F0A00383CAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDBB03BD1E5F1F0A00383CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDBB03BE1E5F1F0A00383CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDBB03C01E5F1F0A00383CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9NP4475VH;
+				INFOPLIST_FILE = "Climbing Grade Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invisiblepixel.Climbing-Grade-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FDBB03C11E5F1F0A00383CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9NP4475VH;
+				INFOPLIST_FILE = "Climbing Grade Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invisiblepixel.Climbing-Grade-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FDBB03C31E5F1F0A00383CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A9NP4475VH;
+				INFOPLIST_FILE = "Climbing Grade ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invisiblepixel.Climbing-Grade-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Climbing Grade Converter.app/Climbing Grade Converter";
+			};
+			name = Debug;
+		};
+		FDBB03C41E5F1F0A00383CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A9NP4475VH;
+				INFOPLIST_FILE = "Climbing Grade ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invisiblepixel.Climbing-Grade-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Climbing Grade Converter.app/Climbing Grade Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDBB039D1E5F1F0A00383CAB /* Build configuration list for PBXProject "Climbing Grade Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBB03BD1E5F1F0A00383CAB /* Debug */,
+				FDBB03BE1E5F1F0A00383CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBB03BF1E5F1F0A00383CAB /* Build configuration list for PBXNativeTarget "Climbing Grade Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBB03C01E5F1F0A00383CAB /* Debug */,
+				FDBB03C11E5F1F0A00383CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDBB03C21E5F1F0A00383CAB /* Build configuration list for PBXNativeTarget "Climbing Grade ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBB03C31E5F1F0A00383CAB /* Debug */,
+				FDBB03C41E5F1F0A00383CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDBB039A1E5F1F0A00383CAB /* Project object */;
+}
