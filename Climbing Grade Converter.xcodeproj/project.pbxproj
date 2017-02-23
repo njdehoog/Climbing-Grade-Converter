@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4400A53539B1EE6E48B82BEE /* Pods_Climbing_Grade_Converter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571B14BF286800C4229F43F7 /* Pods_Climbing_Grade_Converter.framework */; };
+		FD29071F1E5F225700FC918F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD29071E1E5F225700FC918F /* AppState.swift */; };
+		FD2907221E5F34FF00FC918F /* Grades.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2907211E5F34FF00FC918F /* Grades.swift */; };
+		FD2907251E5F5BCD00FC918F /* SelectGradeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2907241E5F5BCD00FC918F /* SelectGradeAction.swift */; };
+		FD2907281E5F5CC600FC918F /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2907271E5F5CC600FC918F /* AppReducer.swift */; };
 		FDBB03A61E5F1F0A00383CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBB03A51E5F1F0A00383CAB /* AppDelegate.swift */; };
-		FDBB03A81E5F1F0A00383CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBB03A71E5F1F0A00383CAB /* ViewController.swift */; };
+		FDBB03A81E5F1F0A00383CAB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBB03A71E5F1F0A00383CAB /* MainViewController.swift */; };
 		FDBB03AB1E5F1F0A00383CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBB03A91E5F1F0A00383CAB /* Main.storyboard */; };
 		FDBB03AD1E5F1F0A00383CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBB03AC1E5F1F0A00383CAB /* Assets.xcassets */; };
 		FDBB03B01E5F1F0A00383CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBB03AE1E5F1F0A00383CAB /* LaunchScreen.storyboard */; };
@@ -26,9 +31,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A4E76D9CE5971647E9A3E7B /* Pods-Climbing Grade Converter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climbing Grade Converter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Climbing Grade Converter/Pods-Climbing Grade Converter.release.xcconfig"; sourceTree = "<group>"; };
+		571B14BF286800C4229F43F7 /* Pods_Climbing_Grade_Converter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Climbing_Grade_Converter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9D55E1A22F77DACDB76A78 /* Pods-Climbing Grade Converter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climbing Grade Converter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Climbing Grade Converter/Pods-Climbing Grade Converter.debug.xcconfig"; sourceTree = "<group>"; };
+		FD29071E1E5F225700FC918F /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		FD2907211E5F34FF00FC918F /* Grades.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grades.swift; sourceTree = "<group>"; };
+		FD2907241E5F5BCD00FC918F /* SelectGradeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectGradeAction.swift; sourceTree = "<group>"; };
+		FD2907271E5F5CC600FC918F /* AppReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		FDBB03A21E5F1F0A00383CAB /* Climbing Grade Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Climbing Grade Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBB03A51E5F1F0A00383CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDBB03A71E5F1F0A00383CAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDBB03A71E5F1F0A00383CAB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FDBB03AA1E5F1F0A00383CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDBB03AC1E5F1F0A00383CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDBB03AF1E5F1F0A00383CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4400A53539B1EE6E48B82BEE /* Pods_Climbing_Grade_Converter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +69,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07953DD41247EFE1D9E86385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571B14BF286800C4229F43F7 /* Pods_Climbing_Grade_Converter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD29071D1E5F224100FC918F /* State */ = {
+			isa = PBXGroup;
+			children = (
+				FD29071E1E5F225700FC918F /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		FD2907201E5F34D000FC918F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD2907211E5F34FF00FC918F /* Grades.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD2907231E5F5BB100FC918F /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				FD2907241E5F5BCD00FC918F /* SelectGradeAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		FD2907261E5F5CA900FC918F /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				FD2907271E5F5CC600FC918F /* AppReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
 		FDBB03991E5F1F0A00383CAB = {
 			isa = PBXGroup;
 			children = (
 				FDBB03A41E5F1F0A00383CAB /* Climbing Grade Converter */,
 				FDBB03B91E5F1F0A00383CAB /* Climbing Grade ConverterTests */,
 				FDBB03A31E5F1F0A00383CAB /* Products */,
+				FEB77B194E8EF307F550B475 /* Pods */,
+				07953DD41247EFE1D9E86385 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +132,12 @@
 		FDBB03A41E5F1F0A00383CAB /* Climbing Grade Converter */ = {
 			isa = PBXGroup;
 			children = (
+				FD2907261E5F5CA900FC918F /* Reducers */,
+				FD2907231E5F5BB100FC918F /* Actions */,
+				FD2907201E5F34D000FC918F /* Model */,
+				FD29071D1E5F224100FC918F /* State */,
 				FDBB03A51E5F1F0A00383CAB /* AppDelegate.swift */,
-				FDBB03A71E5F1F0A00383CAB /* ViewController.swift */,
+				FDBB03A71E5F1F0A00383CAB /* MainViewController.swift */,
 				FDBB03A91E5F1F0A00383CAB /* Main.storyboard */,
 				FDBB03AC1E5F1F0A00383CAB /* Assets.xcassets */,
 				FDBB03AE1E5F1F0A00383CAB /* LaunchScreen.storyboard */,
@@ -96,6 +155,15 @@
 			path = "Climbing Grade ConverterTests";
 			sourceTree = "<group>";
 		};
+		FEB77B194E8EF307F550B475 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A9D55E1A22F77DACDB76A78 /* Pods-Climbing Grade Converter.debug.xcconfig */,
+				4A4E76D9CE5971647E9A3E7B /* Pods-Climbing Grade Converter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDBB03BF1E5F1F0A00383CAB /* Build configuration list for PBXNativeTarget "Climbing Grade Converter" */;
 			buildPhases = (
+				3D4A3D1B253B53C0884D9CF6 /* [CP] Check Pods Manifest.lock */,
 				FDBB039E1E5F1F0A00383CAB /* Sources */,
 				FDBB039F1E5F1F0A00383CAB /* Frameworks */,
 				FDBB03A01E5F1F0A00383CAB /* Resources */,
+				C72E11A760D4C95F349C46EE /* [CP] Embed Pods Frameworks */,
+				1B85A46FBAC31BACC1797F5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,12 +267,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B85A46FBAC31BACC1797F5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Climbing Grade Converter/Pods-Climbing Grade Converter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D4A3D1B253B53C0884D9CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C72E11A760D4C95F349C46EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Climbing Grade Converter/Pods-Climbing Grade Converter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FDBB039E1E5F1F0A00383CAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBB03A81E5F1F0A00383CAB /* ViewController.swift in Sources */,
+				FD2907281E5F5CC600FC918F /* AppReducer.swift in Sources */,
+				FD29071F1E5F225700FC918F /* AppState.swift in Sources */,
+				FD2907221E5F34FF00FC918F /* Grades.swift in Sources */,
+				FD2907251E5F5BCD00FC918F /* SelectGradeAction.swift in Sources */,
+				FDBB03A81E5F1F0A00383CAB /* MainViewController.swift in Sources */,
 				FDBB03A61E5F1F0A00383CAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +460,7 @@
 		};
 		FDBB03C01E5F1F0A00383CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A9D55E1A22F77DACDB76A78 /* Pods-Climbing Grade Converter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9NP4475VH;
@@ -350,6 +474,7 @@
 		};
 		FDBB03C11E5F1F0A00383CAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4E76D9CE5971647E9A3E7B /* Pods-Climbing Grade Converter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9NP4475VH;
@@ -410,6 +535,7 @@
 				FDBB03C11E5F1F0A00383CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDBB03C21E5F1F0A00383CAB /* Build configuration list for PBXNativeTarget "Climbing Grade ConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +544,7 @@
 				FDBB03C41E5F1F0A00383CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
