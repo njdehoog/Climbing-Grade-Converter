@@ -14,6 +14,8 @@ class MainViewController: UIViewController {
     enum GradePickerComponent: Int {
         case french = 0
         case US
+        
+        static let all: [GradePickerComponent] = [.french, .US]
     }
     
     override func viewDidLoad() {
@@ -32,7 +34,7 @@ extension MainViewController: StoreSubscriber {
 
 extension MainViewController: UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 2
+        return GradePickerComponent.all.count
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
@@ -43,7 +45,9 @@ extension MainViewController: UIPickerViewDataSource {
             return Grades.US.count
         }
     }
-    
+}
+
+extension MainViewController: UIPickerViewDelegate {
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         switch GradePickerComponent(rawValue: component)! {
         case .french:
@@ -52,9 +56,7 @@ extension MainViewController: UIPickerViewDataSource {
             return Grades.US[row]
         }
     }
-}
-
-extension MainViewController: UIPickerViewDelegate {
+    
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         switch GradePickerComponent(rawValue: component)! {
         case .french:
